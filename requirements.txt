@@ -1,5 +1,5 @@
 deepxde==1.14.0
-numpy>=1.26.0,<2.2.0  # Asegura compatibilidad con pandas 2.2.3
+numpy==2.2.0  # Asegura compatibilidad con pandas 2.2.3
 pandas==2.2.3
 plotly==5.18.0
 streamlit==1.45.0
