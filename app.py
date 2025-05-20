@@ -9,6 +9,8 @@ import streamlit as st
 from scipy.integrate import solve_ivp
 import re
 
+st.write("Hi")
+
 def get_data():
    # Datos del tiempo (t) en días
    t = np.array([3.46, 4.58, 5.67, 6.64, 7.63, 8.41, 9.32, 10.27, 11.19, 12.39, 13.42, 15.19, 16.24, 17.23, 18.18, 19.29,
