@@ -1,5 +1,5 @@
 deepxde==1.14.0
-numpy==1.25.2
+numpy
 pandas==2.2.3
 plotly==5.18.0
 streamlit==1.45.0
