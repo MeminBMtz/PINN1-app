@@ -1,0 +1,7 @@
+deepxde
+numpy
+pandas
+plotly
+tensorflow
+streamlit
+scipy
