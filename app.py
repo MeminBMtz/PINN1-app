@@ -507,7 +507,7 @@ if selected_model == "Verhulst":
       vars_df.columns = ["Epoch", "k", "C"]
 
       # Se convierten todos los valores de str y formato científico a float
-      for col in vars_df.columns[1:]:
+      for col in vars_df.columns:
          vars_df[col] = vars_df[col].astype(str).apply(lambda x: float(re.sub(r"[\[\],]", "", x.strip())))
 
       # Para evitar errores en las gráficas, se consideran solo a las variables en el entrenamiento (epoch=0:# de epochs seleccionado)
@@ -585,7 +585,7 @@ if selected_model == "Montroll":
       vars_dfM.columns = ["Epoch", "k", "C", "theta"]
 
       # Se convierten todos los valores de str y formato científico a float
-      for col in vars_dfM.columns[1:]:
+      for col in vars_dfM.columns:
          vars_dfM[col] = vars_dfM[col].astype(str).apply(lambda x: float(re.sub(r"[\[\],]", "", x.strip())))
 
       # Para evitar errores en las gráficas, se consideran solo a las variables en el entrenamiento (epoch=0:# de epochs seleccionado)
